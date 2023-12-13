@@ -1,9 +1,13 @@
 import React from "react";
+import List from "./items/List";
 
 function ListSocial() {
   return (
     <ul>
-      <li>
+      <List socialKind="whatsapp" />
+      <List socialKind="twitter" />
+      <List socialKind="youtube" />
+      {/* <li>
         <input type="checkbox" id="facebook" /> 
         <label for="facebook">facebook</label>
       </li>
@@ -14,7 +18,7 @@ function ListSocial() {
       <li>
         <input type="checkbox" id="youtube" />
         <label for='youtube'>Youtube</label>
-      </li>
+      </li> */}
     </ul>
   );
 }
